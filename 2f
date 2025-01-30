@@ -1,0 +1,21 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Digite um número: ");
+        double numero = Convert.ToDouble(Console.ReadLine());
+        if (numero < 0)
+        {
+            Console.WriteLine("Não é possível calcular a raiz quadrada de um número negativo.");
+        }
+        else
+        {
+            double raizQuadrada = Math.Sqrt(numero);
+            Console.WriteLine("A raiz quadrada do número é: " + raizQuadrada);
+            Console.ReadKey();
+    
+        }
+    }
+}
