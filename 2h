@@ -1,0 +1,15 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Digite um número: ");
+        double numero = Convert.ToDouble(Console.ReadLine());
+        double valorAbsoluto = Math.Abs(numero);
+        Console.WriteLine("O valor absoluto do número é: " + valorAbsoluto);
+        Console.ReadKey();
+    }
+}
+
+        
