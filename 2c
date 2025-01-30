@@ -1,0 +1,14 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+ 
+        Console.Write("Digite um número: ");
+        double numero = Convert.ToDouble(Console.ReadLine());      
+        double metade = numero / 2;
+        Console.WriteLine("A metade do número é: " + metade);
+        Console.ReadKey();
+    }
+}
