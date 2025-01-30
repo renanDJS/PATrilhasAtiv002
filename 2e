@@ -1,0 +1,24 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Digite o primeiro número: ");
+        double numero1 = Convert.ToDouble(Console.ReadLine());
+        Console.Write("Digite o segundo número: ");
+        double numero2 = Convert.ToDouble(Console.ReadLine());
+        if (numero2 == 0)
+        {
+            Console.WriteLine("Não é possível dividir por zero.");
+        }
+        else
+        {
+            double divisao = numero1 / numero2;
+            Console.WriteLine("O resultado da divisão é: " + divisao);
+             Console.ReadKey();
+    
+        }
+    }
+}
+       
